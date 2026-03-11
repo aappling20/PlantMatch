@@ -146,63 +146,63 @@ const QUESTIONS = [
   {
     id:"skill", question:"What's your experience with plants?", hint:"Be honest — there's a perfect plant for every level!",
     options:[
-      {value:"beginner",label:"Beginner — I've killed a cactus",icon:"🌱"},
-      {value:"intermediate",label:"Intermediate — I keep a few alive",icon:"🌿"},
-      {value:"advanced",label:"Advanced — practically a botanist",icon:"🌳"},
+      {value:"beginner",label:"Beginner — I've killed a cactus"},
+      {value:"intermediate",label:"Intermediate — I keep a few alive"},
+      {value:"advanced",label:"Advanced — practically a botanist"},
     ],
   },
   {
     id:"light", question:"How much natural light does your space get?", hint:"Think about the room where the plant will actually live",
     options:[
-      {value:"low",label:"Low light — north-facing or shady",icon:"🌑"},
-      {value:"medium",label:"Moderate — bright but indirect",icon:"🌤"},
-      {value:"high",label:"Bright & sunny — south or west windows",icon:"☀️"},
+      {value:"low",label:"Low light — north-facing or shady"},
+      {value:"medium",label:"Moderate — bright but indirect"},
+      {value:"high",label:"Bright & sunny — south or west windows"},
     ],
   },
   {
     id:"water", question:"How often are you willing to water?", hint:"Pick your real habit, not your aspirational one",
     options:[
-      {value:"rarely",label:"Once every 2–3 weeks or less",icon:"🏜️"},
-      {value:"weekly",label:"About once a week",icon:"💧"},
-      {value:"frequent",label:"Multiple times a week — I love it",icon:"🚿"},
+      {value:"rarely",label:"Once every 2–3 weeks or less"},
+      {value:"weekly",label:"About once a week"},
+      {value:"frequent",label:"Multiple times a week — I love it"},
     ],
   },
   {
     id:"time", question:"How much time do you want to spend on care?", hint:"Includes pruning, fertilising, repotting",
     options:[
-      {value:"minimal",label:"Minimal — set and forget",icon:"😌"},
-      {value:"moderate",label:"A few minutes here and there",icon:"🕐"},
-      {value:"lots",label:"I love tending my plants",icon:"🧑‍🌾"},
+      {value:"minimal",label:"Minimal — set and forget"},
+      {value:"moderate",label:"A few minutes here and there"},
+      {value:"lots",label:"I love tending my plants"},
     ],
   },
   {
     id:"location", question:"Where will your plant live?", hint:"This affects light, temperature, and humidity needs",
     options:[
-      {value:"indoor",label:"Indoors — apartment or house",icon:"🏠"},
-      {value:"outdoor",label:"Outdoors — garden or balcony",icon:"🌳"},
-      {value:"both",label:"Both — I'll move it around",icon:"🔄"},
+      {value:"indoor",label:"Indoors — apartment or house"},
+      {value:"outdoor",label:"Outdoors — garden or balcony"},
+      {value:"both",label:"Both — I'll move it around"},
     ],
   },
   {
     id:"pets", question:"Do you have pets or young children?", hint:"Some plants are toxic if chewed",
     options:[
-      {value:"yes",label:"Yes — safety is a priority",icon:"🐾"},
-      {value:"no",label:"No — no worries there",icon:"✅"},
+      {value:"yes",label:"Yes — safety is a priority"},
+      {value:"no",label:"No — no worries there"},
     ],
   },
   {
     id:"size", question:"What size plant are you looking for?", hint:"Consider the space you have available",
     options:[
-      {value:"small",label:"Small — desk or shelf sized",icon:"🪴"},
-      {value:"medium",label:"Medium — floor plant, knee height",icon:"🌿"},
-      {value:"large",label:"Large — statement piece, fills a corner",icon:"🌴"},
+      {value:"small",label:"Small — desk or shelf sized"},
+      {value:"medium",label:"Medium — floor plant, knee height"},
+      {value:"large",label:"Large — statement piece, fills a corner"},
     ],
   },
 ];
 
 const PLANTS = [
   {
-    id:1,name:"Snake Plant",latin:"Sansevieria trifasciata",emoji:"🪴",
+    id:1,name:"Snake Plant",latin:"Sansevieria trifasciata",photo:"https://www.swansonsnursery.com/blog/snake-plant",
     tags:["Low maintenance","Air purifying","Drought tolerant"],
     skill:["beginner","intermediate","advanced"],light:["low","medium","high"],water:["rarely","weekly"],
     time:["minimal","moderate"],location:["indoor","both"],pets:["no"],size:["medium","large"],
@@ -211,7 +211,7 @@ const PLANTS = [
     care:["Water only when the top 2 inches of soil are completely dry — overwatering is the only real threat.","Place in any light condition; it tolerates dark corners but prefers indirect bright light.","Fertilise once in spring and once in summer with a balanced liquid fertiliser.","Repot every 2–3 years or when roots push out of the drainage holes.","Wipe leaves with a damp cloth occasionally to keep them dust-free and glossy."],
   },
   {
-    id:2,name:"Pothos",latin:"Epipremnum aureum",emoji:"🍃",
+    id:2,name:"Pothos",latin:"Epipremnum aureum",photo:"https://gardengoodsdirect.com/products/marble-queen-pothos?srsltid=AfmBOopii8nnY_NPmwNQuzdyvFNTaTNq6aw_IBldy93KdXZfC3yfHAZe",
     tags:["Trailing vines","Fast growing","Very forgiving"],
     skill:["beginner","intermediate"],light:["low","medium"],water:["weekly"],
     time:["minimal","moderate"],location:["indoor","both"],pets:["no"],size:["small","medium"],
@@ -220,7 +220,7 @@ const PLANTS = [
     care:["Water when the top inch of soil feels dry — the leaves droop slightly when thirsty.","Provide bright indirect light for fastest growth and most vibrant variegation.","Propagate easily by snipping a node just below a leaf and placing in water.","Feed monthly in spring and summer with diluted balanced fertiliser.","Trim leggy vines to encourage bushier, fuller growth."],
   },
   {
-    id:3,name:"Monstera",latin:"Monstera deliciosa",emoji:"🌿",
+    id:3,name:"Monstera",latin:"Monstera deliciosa",photo:"https://bloomscape.com/product/monstera/",
     tags:["Statement plant","Iconic leaves","Tropical"],
     skill:["intermediate","advanced"],light:["medium","high"],water:["weekly"],
     time:["moderate"],location:["indoor","both"],pets:["no"],size:["large"],
@@ -229,7 +229,7 @@ const PLANTS = [
     care:["Water thoroughly when the top 2 inches of soil are dry, then let it drain completely.","Provide bright indirect light — avoid harsh direct sun which scorches the leaves.","Support with a moss pole to encourage larger, more fenestrated leaves.","Mist leaves or use a humidifier to mimic its tropical origins.","Dust leaves regularly and wipe with neem oil to deter pests."],
   },
   {
-    id:4,name:"ZZ Plant",latin:"Zamioculcas zamiifolia",emoji:"🌱",
+    id:4,name:"ZZ Plant",latin:"Zamioculcas zamiifolia",photo:"https://myjungleclub.com/products/zz-plant-web",
     tags:["Near-indestructible","Low light","Glossy leaves"],
     skill:["beginner","intermediate"],light:["low","medium"],water:["rarely"],
     time:["minimal"],location:["indoor"],pets:["no"],size:["medium"],
@@ -238,7 +238,7 @@ const PLANTS = [
     care:["Water sparingly — every 2–4 weeks, allowing soil to dry completely between waterings.","Thrives in low light and does well under fluorescent office lighting.","Avoid overwatering at all costs; root rot is the only real risk.","Fertilise lightly once or twice a year — it doesn't need much.","Wipe the glossy leaves occasionally to keep them shining."],
   },
   {
-    id:5,name:"Spider Plant",latin:"Chlorophytum comosum",emoji:"🌾",
+    id:5,name:"Spider Plant",latin:"Chlorophytum comosum",photo:"https://www.plantvine.com/product/chlorophytum-comosum-spider-plant/?srsltid=AfmBOopCO4exPvB6V4ex-pnX0IT8B-f-9SXhuMUVpXarMACijlJ1Ej0E",
     tags:["Pet-safe","Air purifying","Easy care"],
     skill:["beginner","intermediate"],light:["low","medium","high"],water:["weekly"],
     time:["minimal","moderate"],location:["indoor","both"],pets:["yes"],size:["small","medium"],
@@ -247,7 +247,7 @@ const PLANTS = [
     care:["Water regularly but allow the top inch to dry between waterings.","Tolerates a wide range of light; bright indirect is ideal.","Snip baby spiderettes and root them in water to propagate new plants.","Feed monthly during spring and summer with diluted all-purpose fertiliser.","Remove brown tips with scissors — try filtered water to reduce tip browning."],
   },
   {
-    id:6,name:"Boston Fern",latin:"Nephrolepis exaltata",emoji:"🌿",
+    id:6,name:"Boston Fern",latin:"Nephrolepis exaltata",photo:"https://www.etsy.com/fi-en/listing/852944865/1-x-nephrolepis-boston-fern-stunning",
     tags:["High humidity","Lush foliage","Pet-safe"],
     skill:["intermediate","advanced"],light:["medium"],water:["frequent"],
     time:["lots","moderate"],location:["indoor","both"],pets:["yes"],size:["medium"],
@@ -256,7 +256,7 @@ const PLANTS = [
     care:["Keep the soil consistently moist — never let it dry out completely.","Mist daily or place on a pebble tray with water to maintain high humidity.","Provide bright indirect light; avoid direct sun which scorches fronds.","Fertilise every two weeks in spring and summer with balanced liquid feed.","Remove yellowing fronds at the base to keep the plant full and healthy."],
   },
   {
-    id:7,name:"Succulents",latin:"Various genera",emoji:"🌵",
+    id:7,name:"Succulents",latin:"Various genera",photo:"https://naturesdesigngroup.com/flnxt-sr24-17-succulent-garden.html",
     tags:["Drought tolerant","Colourful","Compact"],
     skill:["beginner","intermediate"],light:["high","medium"],water:["rarely"],
     time:["minimal"],location:["indoor","outdoor","both"],pets:["no"],size:["small"],
@@ -265,7 +265,7 @@ const PLANTS = [
     care:["Use well-draining cactus mix and a pot with drainage holes to prevent rot.","Place in the brightest light available — a sunny south or west-facing window is ideal.","Water deeply but infrequently, letting the soil dry completely between waterings.","Fertilise once in spring with a diluted cactus fertiliser.","Outdoors, protect from heavy rain to avoid overwatering."],
   },
   {
-    id:8,name:"Peace Lily",latin:"Spathiphyllum wallisii",emoji:"🌸",
+    id:8,name:"Peace Lily",latin:"Spathiphyllum wallisii",photo:"https://nationwideplants.com/products/spathiphyllum-peace-lily?srsltid=AfmBOooQgr32hP1Xe49xNzFu3vEMuS_S1qpgXv75uySb86RoOfwrBdP1",
     tags:["Flowering","Air purifying","Low light"],
     skill:["beginner","intermediate"],light:["low","medium"],water:["weekly"],
     time:["moderate"],location:["indoor"],pets:["no"],size:["medium"],
@@ -274,7 +274,7 @@ const PLANTS = [
     care:["Water when the plant droops slightly — it communicates its needs clearly.","Place in low to medium indirect light; avoid direct sun which bleaches leaves.","Mist occasionally to boost humidity and encourage blooming.","Fertilise monthly in spring and summer with a bloom-boosting fertiliser.","Repot in spring when roots begin circling the bottom of the pot."],
   },
   {
-    id:9,name:"Rubber Plant",latin:"Ficus elastica",emoji:"🌳",
+    id:9,name:"Rubber Plant",latin:"Ficus elastica",photo:"https://abeautifulmess.com/how-to-care-for-a-rubber-tree/",
     tags:["Bold statement","Fast growing","Structural"],
     skill:["intermediate","advanced"],light:["medium","high"],water:["weekly"],
     time:["moderate"],location:["indoor","both"],pets:["no"],size:["large"],
@@ -283,7 +283,7 @@ const PLANTS = [
     care:["Water when the top inch of soil is dry — reduce watering in winter.","Place in bright indirect light for richest leaf colour and fastest growth.","Wipe leaves with a damp cloth monthly to keep them dust-free.","Pinch off growing tips to encourage branching and a fuller silhouette.","Fertilise every two weeks in spring and summer; stop in autumn and winter."],
   },
   {
-    id:10,name:"Aloe Vera",latin:"Aloe barbadensis miller",emoji:"🪴",
+    id:10,name:"Aloe Vera",latin:"Aloe barbadensis miller",photo:"https://www.calloways.com/aloe-vera/?srsltid=AfmBOop69wMfTUfJEgbng8NRzsTNzrRmDIt1DwcwwMh7GqSdV5bbE_eZ",
     tags:["Medicinal","Drought tolerant","Outdoor-friendly"],
     skill:["beginner","intermediate"],light:["high","medium"],water:["rarely"],
     time:["minimal"],location:["indoor","outdoor","both"],pets:["no"],size:["small","medium"],
@@ -382,7 +382,6 @@ function QuizPage({ onComplete }) {
               style={{animationDelay:`${i*0.07}s`}}
               onClick={()=>setAnswers(p=>({...p,[q.id]:o.value}))}>
               <div className="radio"><div className="radio-dot"/></div>
-              <span className="opt-icon">{o.icon}</span>
               <span className="opt-text">{o.label}</span>
             </div>
           ))}
@@ -405,7 +404,7 @@ function PlantPopup({ plant, match, onClose }) {
     <div className="overlay" onClick={onClose}>
       <div className="popup" onClick={e=>e.stopPropagation()}>
         <div className="popup-hero">
-          <span>{plant.emoji}</span>
+          <img src={plant.photo} alt={plant.name} style={{width:"100%",height:"100%",objectFit:"cover",borderRadius:"28px 28px 0 0"}}/>
           <button className="close-btn" onClick={onClose}>✕</button>
           <div className="match-badge">⭐ {match}% match</div>
         </div>
@@ -476,7 +475,7 @@ function ResultsPage({ answers, onRetake }) {
       <div className="grid">
         {filtered.map((plant,i)=>(
           <div key={plant.id} className="plant-card" style={{animationDelay:`${i*0.06}s`}} onClick={()=>setPopup(plant)}>
-            <div className="card-img">{plant.emoji}</div>
+            <img className="card-img" src={plant.photo} alt={plant.name} style={{objectFit:"cover"}}/>
             <div className="card-match">{plant.match}%</div>
             {filter==="all" && i<3 && <div className="card-rank">#{i+1}</div>}
             <div className="card-body">
