@@ -202,7 +202,7 @@ const QUESTIONS = [
 
 const PLANTS = [
   {
-    id:1,name:"Snake Plant",latin:"Sansevieria trifasciata",photo:"https://www.swansonsnursery.com/blog/snake-plant",
+    id:1,name:"Snake Plant",latin:"Sansevieria trifasciata",photo:"/plantmatch/images/Snake+Plant.webp",
     tags:["Low maintenance","Air purifying","Drought tolerant"],
     skill:["beginner","intermediate","advanced"],light:["low","medium","high"],water:["rarely","weekly"],
     time:["minimal","moderate"],location:["indoor","both"],pets:["no"],size:["medium","large"],
@@ -211,7 +211,7 @@ const PLANTS = [
     care:["Water only when the top 2 inches of soil are completely dry — overwatering is the only real threat.","Place in any light condition; it tolerates dark corners but prefers indirect bright light.","Fertilise once in spring and once in summer with a balanced liquid fertiliser.","Repot every 2–3 years or when roots push out of the drainage holes.","Wipe leaves with a damp cloth occasionally to keep them dust-free and glossy."],
   },
   {
-    id:2,name:"Pothos",latin:"Epipremnum aureum",photo:"https://gardengoodsdirect.com/products/marble-queen-pothos?srsltid=AfmBOopii8nnY_NPmwNQuzdyvFNTaTNq6aw_IBldy93KdXZfC3yfHAZe",
+    id:2,name:"Pothos",latin:"Epipremnum aureum",photo:"/projects/plantmatch/images/marble-queen-pothos-28748821463082_x560.progressive.webp",
     tags:["Trailing vines","Fast growing","Very forgiving"],
     skill:["beginner","intermediate"],light:["low","medium"],water:["weekly"],
     time:["minimal","moderate"],location:["indoor","both"],pets:["no"],size:["small","medium"],
@@ -220,7 +220,7 @@ const PLANTS = [
     care:["Water when the top inch of soil feels dry — the leaves droop slightly when thirsty.","Provide bright indirect light for fastest growth and most vibrant variegation.","Propagate easily by snipping a node just below a leaf and placing in water.","Feed monthly in spring and summer with diluted balanced fertiliser.","Trim leggy vines to encourage bushier, fuller growth."],
   },
   {
-    id:3,name:"Monstera",latin:"Monstera deliciosa",photo:"https://bloomscape.com/product/monstera/",
+    id:3,name:"Monstera",latin:"Monstera deliciosa",photo:"/plantmatch/images/bloomscape_monstera_alt_stone_580x696_crop_center@2x.webp",
     tags:["Statement plant","Iconic leaves","Tropical"],
     skill:["intermediate","advanced"],light:["medium","high"],water:["weekly"],
     time:["moderate"],location:["indoor","both"],pets:["no"],size:["large"],
@@ -229,7 +229,7 @@ const PLANTS = [
     care:["Water thoroughly when the top 2 inches of soil are dry, then let it drain completely.","Provide bright indirect light — avoid harsh direct sun which scorches the leaves.","Support with a moss pole to encourage larger, more fenestrated leaves.","Mist leaves or use a humidifier to mimic its tropical origins.","Dust leaves regularly and wipe with neem oil to deter pests."],
   },
   {
-    id:4,name:"ZZ Plant",latin:"Zamioculcas zamiifolia",photo:"https://myjungleclub.com/products/zz-plant-web",
+    id:4,name:"ZZ Plant",latin:"Zamioculcas zamiifolia",photo:"/plantmatch/images/Plants-265_zz.webp",
     tags:["Near-indestructible","Low light","Glossy leaves"],
     skill:["beginner","intermediate"],light:["low","medium"],water:["rarely"],
     time:["minimal"],location:["indoor"],pets:["no"],size:["medium"],
@@ -238,7 +238,7 @@ const PLANTS = [
     care:["Water sparingly — every 2–4 weeks, allowing soil to dry completely between waterings.","Thrives in low light and does well under fluorescent office lighting.","Avoid overwatering at all costs; root rot is the only real risk.","Fertilise lightly once or twice a year — it doesn't need much.","Wipe the glossy leaves occasionally to keep them shining."],
   },
   {
-    id:5,name:"Spider Plant",latin:"Chlorophytum comosum",photo:"https://www.plantvine.com/product/chlorophytum-comosum-spider-plant/?srsltid=AfmBOopCO4exPvB6V4ex-pnX0IT8B-f-9SXhuMUVpXarMACijlJ1Ej0E",
+    id:5,name:"Spider Plant",latin:"Chlorophytum comosum",photo:"/plantmatch/images/Spider-Plant-Main-1229x1536.webp",
     tags:["Pet-safe","Air purifying","Easy care"],
     skill:["beginner","intermediate"],light:["low","medium","high"],water:["weekly"],
     time:["minimal","moderate"],location:["indoor","both"],pets:["yes"],size:["small","medium"],
@@ -247,7 +247,7 @@ const PLANTS = [
     care:["Water regularly but allow the top inch to dry between waterings.","Tolerates a wide range of light; bright indirect is ideal.","Snip baby spiderettes and root them in water to propagate new plants.","Feed monthly during spring and summer with diluted all-purpose fertiliser.","Remove brown tips with scissors — try filtered water to reduce tip browning."],
   },
   {
-    id:6,name:"Boston Fern",latin:"Nephrolepis exaltata",photo:"https://www.etsy.com/fi-en/listing/852944865/1-x-nephrolepis-boston-fern-stunning",
+    id:6,name:"Boston Fern",latin:"Nephrolepis exaltata",photo:"/PlantMatch/images/Boston-Fern-3G-800x1000.jpg",
     tags:["High humidity","Lush foliage","Pet-safe"],
     skill:["intermediate","advanced"],light:["medium"],water:["frequent"],
     time:["lots","moderate"],location:["indoor","both"],pets:["yes"],size:["medium"],
@@ -256,7 +256,7 @@ const PLANTS = [
     care:["Keep the soil consistently moist — never let it dry out completely.","Mist daily or place on a pebble tray with water to maintain high humidity.","Provide bright indirect light; avoid direct sun which scorches fronds.","Fertilise every two weeks in spring and summer with balanced liquid feed.","Remove yellowing fronds at the base to keep the plant full and healthy."],
   },
   {
-    id:7,name:"Succulents",latin:"Various genera",photo:"https://naturesdesigngroup.com/flnxt-sr24-17-succulent-garden.html",
+    id:7,name:"Succulents",latin:"Various genera",photo:"/plantmatch/images/succulent-garden.jpg.webp",
     tags:["Drought tolerant","Colourful","Compact"],
     skill:["beginner","intermediate"],light:["high","medium"],water:["rarely"],
     time:["minimal"],location:["indoor","outdoor","both"],pets:["no"],size:["small"],
@@ -265,7 +265,7 @@ const PLANTS = [
     care:["Use well-draining cactus mix and a pot with drainage holes to prevent rot.","Place in the brightest light available — a sunny south or west-facing window is ideal.","Water deeply but infrequently, letting the soil dry completely between waterings.","Fertilise once in spring with a diluted cactus fertiliser.","Outdoors, protect from heavy rain to avoid overwatering."],
   },
   {
-    id:8,name:"Peace Lily",latin:"Spathiphyllum wallisii",photo:"https://nationwideplants.com/products/spathiphyllum-peace-lily?srsltid=AfmBOooQgr32hP1Xe49xNzFu3vEMuS_S1qpgXv75uySb86RoOfwrBdP1",
+    id:8,name:"Peace Lily",latin:"Spathiphyllum wallisii",photo:"/plantmatch/images/spathiphyllum_peace_lily_2-min-min_f8a2fb41-f073-4a6c-9c47-33b8a179e2e2.webp",
     tags:["Flowering","Air purifying","Low light"],
     skill:["beginner","intermediate"],light:["low","medium"],water:["weekly"],
     time:["moderate"],location:["indoor"],pets:["no"],size:["medium"],
@@ -274,7 +274,7 @@ const PLANTS = [
     care:["Water when the plant droops slightly — it communicates its needs clearly.","Place in low to medium indirect light; avoid direct sun which bleaches leaves.","Mist occasionally to boost humidity and encourage blooming.","Fertilise monthly in spring and summer with a bloom-boosting fertiliser.","Repot in spring when roots begin circling the bottom of the pot."],
   },
   {
-    id:9,name:"Rubber Plant",latin:"Ficus elastica",photo:"https://abeautifulmess.com/how-to-care-for-a-rubber-tree/",
+    id:9,name:"Rubber Plant",latin:"Ficus elastica",photo:"/plantmatch/images/rubbertree-1.jpg",
     tags:["Bold statement","Fast growing","Structural"],
     skill:["intermediate","advanced"],light:["medium","high"],water:["weekly"],
     time:["moderate"],location:["indoor","both"],pets:["no"],size:["large"],
@@ -283,7 +283,7 @@ const PLANTS = [
     care:["Water when the top inch of soil is dry — reduce watering in winter.","Place in bright indirect light for richest leaf colour and fastest growth.","Wipe leaves with a damp cloth monthly to keep them dust-free.","Pinch off growing tips to encourage branching and a fuller silhouette.","Fertilise every two weeks in spring and summer; stop in autumn and winter."],
   },
   {
-    id:10,name:"Aloe Vera",latin:"Aloe barbadensis miller",photo:"https://www.calloways.com/aloe-vera/?srsltid=AfmBOop69wMfTUfJEgbng8NRzsTNzrRmDIt1DwcwwMh7GqSdV5bbE_eZ",
+    id:10,name:"Aloe Vera",latin:"Aloe barbadensis miller",photo:"/PlantMatch/images/Aloe-Vera.jpg",
     tags:["Medicinal","Drought tolerant","Outdoor-friendly"],
     skill:["beginner","intermediate"],light:["high","medium"],water:["rarely"],
     time:["minimal"],location:["indoor","outdoor","both"],pets:["no"],size:["small","medium"],
