@@ -1,16 +1,8 @@
-# React + Vite
+# PlantMatch
+PlantMatch is a web application designed to help users find plants that best match their living environment and care preferences. The goal of the project is to make plant ownership easier and more accessible, especially for beginners who may not know which plants will thrive in their specific conditions. Many people struggle with keeping plants alive because they choose plants that require more sunlight, water, or maintenance than their environment allows. PlantMatch addresses this problem by recommending plants that align with a user’s lifestyle, available sunlight, watering habits, and experience level with plant care.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The application works by asking users a series of questions about their environment and preferences. These inputs may include factors such as the amount of natural light available, how often the user is willing to water plants, whether the plant will be kept indoors or outdoors, and the user’s level of experience with plant care. The system then compares these responses with stored plant data and returns a list of plants that are most compatible with the user’s conditions. Each recommended plant includes a profile containing useful information such as light requirements, watering needs, and difficulty level, helping users better understand how to care for the plant successfully.
 
-Currently, two official plugins are available:
+PlantMatch was developed as a personal project to explore web development and practice building an application that connects user input with a simple recommendation system. Through this project, the focus was on designing a clear user interface, organizing plant data effectively, and implementing logic that can match plants to appropriate environments. The project also emphasizes creating a simple and intuitive experience so that users can quickly discover plants that fit their lifestyle.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+In the future, several improvements could expand the functionality of PlantMatch. Possible enhancements include incorporating geographic location to suggest plants suited to a user’s climate, adding plant identification through image recognition, allowing users to create accounts and save favorite plants, and improving the recommendation algorithm to produce more personalized matches. These additions would make the platform more interactive and provide users with even more helpful tools for discovering and caring for plants.
